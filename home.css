@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    overflow: hidden;
+  }
+  
+  #nav {
+    background-color:#03bda4;
+    color:black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #heading {
+    padding: 20px;
+  }
+  
+  #navlinks {
+    margin-right: 200px;
+    color: black;
+  }
+  
+  #navlinks a {
+    color: white;
+    font-size: large;
+    margin: 12px;
+    text-decoration: none;
+  }
+  
+  .content {
+    background: url("JDI.jpg") repeat ;
+
+    width: 100vw;
+    height: 92vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+  }
+  #tagline {
+    color:white;
+    text-align: left;
+    font-size: 25px;
+    width: 1000px;
+    
+
+  }
+  
+  #text {
+    color:black ;
+    text-align: left;
+    font-size: 30px;
+    width: 1000px;
+    padding-left: 750px;
+  }
+  
+  #text p {
+    padding: 10px 0px;
+  }

@@ -1,0 +1,36 @@
+#register {
+    color: white;
+    padding-left: 100px;
+    text-transform: uppercase;
+    width: 500px;
+  }
+  
+  .form {
+     margin-left: 1000px;
+  }
+  
+  .submit-btn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"], 
+  input[type="password"]
+  {
+    background-color: #d5c8c8;
+  }
+  
+  button[type="submit"] {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color:white;
+  }
+
+  #content
+  {
+      padding-left:900px;
+  }
